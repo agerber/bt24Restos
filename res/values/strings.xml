@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+ 	
+	<string name="app_name">Restos</string>
+	<string name="no_restos">Currently there are no resturants in your list. Try pressing the new button in the action bar.</string>
+	<string name="setting">Setting</string>
+	<string name="pref">Preferences</string>
+	 <string-array name="strWebService">
+        <item>Google</item>
+        <item>Yelp</item>
+        <item>Urban Spoon</item>
+    </string-array>
+    <string-array name="strWeb">
+        <item>www.google.com</item>
+        <item>www.yelp.com</item>
+        <item>www.urbanspoon.com</item>
+    </string-array>
+    
+    <string-array name="strPhoneFormat">
+        <item>(xxx) xxx-xxxx</item>
+        <item>xxx-xxx-xxxx</item>
+        <item>xxxxxxxxxx</item>
+    </string-array>
+    <string-array name="strFormat">
+        <item>(xxx) xxx-xxxx</item>
+        <item>xxx-xxx-xxxx</item>
+        <item>xxxxxxxxxx</item>
+    </string-array>
+</resources>

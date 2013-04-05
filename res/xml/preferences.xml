@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+	<!--Using PreferenceCategory in case we need to add other Category in the future-->
+
+        <ListPreference
+            android:entries="@array/strWebService"
+            android:entryValues="@array/strWeb"
+            android:key="web"
+            android:summary="Choosing Web Service"
+            android:title="Select web service to open with" />
+        
+        <ListPreference
+            android:entries="@array/strPhoneFormat"
+            android:entryValues="@array/strFormat"
+            android:key="phoneformat"
+            android:summary="Select Phone format"
+            android:title="Phone number format" />
+
+</PreferenceScreen>
